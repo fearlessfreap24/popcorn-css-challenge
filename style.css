@@ -8,20 +8,35 @@ Main background - #D4A76A*/
     background: #ffdbaa;
     color: #553100;
     margin: auto;
-    padding: 20px;
+    padding: 0 20px 0 20px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
 }
 
 .header-title {
-    float: left;
     margin-right: auto;
     margin-left: auto;
     vertical-align: middle;
+    width: 50%;;
+}
+
+.header-buttons-holder {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1;
+    display: flex;
 }
 
 .header-buttons {
     background: #805215;
     color: white;
-    padding: 10px;
-    margin: auto;
-    display: inline-block;
+    padding: 10px 0 10px 0;
+    width: 23%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
 }
