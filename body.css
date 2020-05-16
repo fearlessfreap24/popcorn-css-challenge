@@ -9,11 +9,6 @@
     display: flex;
 }
 
-/* #about {
-    width: 100%;
-    height: 50%;
-} */
-
 .column {
     width: 33%;
     background-color: white;
@@ -23,6 +18,15 @@
 .column-title {
     text-align: center;
     font-weight: bold;
+    width: 100%;
+    height: 20%;
+}
+
+.comments {
+    width: 90%;
+    margin: 5px auto 5px auto;
+    font-size: small;
+    word-wrap: normal;
 }
 
 .button {
@@ -30,10 +34,13 @@
     color: white;
     text-align: center;
     margin: 5px auto 5px auto;
+    width: 90%;
+    height: 20%;
 }
 
 #about {
     padding: 10px;
     background-color: white;
     margin: 20px;
+    word-wrap: normal;
 }
