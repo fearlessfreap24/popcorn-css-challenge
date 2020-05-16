@@ -1,16 +1,21 @@
 #body {
+    background: #d4a76a;
+    margin: auto;
+    /* padding: 0 20px 0 20px; */
     width: 100%;
-    height: 90%;
-    background-color: #d4a76a;
+    /* height: 90%; */
 }
 
 #columns-3 {
-    height: 50%;
+    width: 90%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
 }
 
 .column {
-    width: 33%;
+    width: 30%;
     background-color: white;
     margin: 10px;
 }
@@ -18,8 +23,10 @@
 .column-title {
     text-align: center;
     font-weight: bold;
-    width: 100%;
+    width: 80%;
     height: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .comments {
@@ -30,17 +37,21 @@
 }
 
 .button {
-    background-color: #553100;
+    background: #805215;
     color: white;
     text-align: center;
     margin: 5px auto 5px auto;
     width: 90%;
     height: 20%;
+    border: 1px solid;
 }
 
 #about {
+    width: 90%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     background-color: white;
-    margin: 20px;
     word-wrap: normal;
 }
