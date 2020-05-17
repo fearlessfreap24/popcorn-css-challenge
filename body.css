@@ -15,36 +15,43 @@
 }
 
 .column {
-    width: 25%;
+    width: 20%;
     background-color: white;
     margin-right: auto;
     margin-left: auto;
+    padding: 10px;
     box-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: column;
 }
 
 .column-title {
     text-align: center;
     font-weight: bold;
-    font-size: medium;
+    font-size: 10pt;
     width: 80%;
     height: 20%;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 5px 5px 5px;
 }
 
 .comments {
-    width: 90%;
+    width: 100%;
     margin: 5px auto 5px auto;
-    font-size: small;
+    font-size: 8pt;
     word-wrap: normal;
 }
 
-.button {;
+.button {
     background: #805215;
     color: white;
     text-align: center;
-    margin: 5px auto 5px auto;
-    width: 90%;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    margin: 5px auto 0 auto;
+    width: 100%;
     height: 20%;
     border: 1px solid;
 }
@@ -54,7 +61,7 @@
     height: 30%;
     margin-left: auto;
     margin-right: auto;
-    /* padding: 1%; */
+    padding: 10px;
     background-color: white;
     box-shadow: 1px 1px 5px black;
 }
@@ -62,25 +69,37 @@
 .about-column-title {
     text-align: center;
     font-weight: bold;
-    width: 80%;
+    font-size: 10pt;
+    width: 100%;
     height: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .about-comments {
-    width: 95%;
+    width: 100%;
     margin: 5px auto 5px auto;
-    font-size: small;
+    font-size: 9pt;
     word-wrap: normal;
 }
 
 .about-button {
+    /* background: #805215;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px auto 5px auto;
+    width: 100%;
+    height: 20%;
+    border: 1px solid; */
     background: #805215;
     color: white;
     text-align: center;
-    margin: 5px auto 5px auto;
-    width: 95%;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    margin: 5px auto 0 auto;
+    width: 100%;
     height: 20%;
     border: 1px solid;
 }
