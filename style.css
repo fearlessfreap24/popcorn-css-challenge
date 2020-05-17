@@ -7,7 +7,7 @@ Main background - #D4A76A*/
 .header {
     background: #ffdbaa;
     color: #553100;
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
     height: 10%;
     display: flex;
@@ -18,8 +18,10 @@ Main background - #D4A76A*/
 .header-title {
     margin-right: auto;
     margin-left: auto;
-    vertical-align: middle;
-    width: 50%;;
+    width: 50%;
+    font-size: 18pt;
+    font-weight: 550;
+    padding-left: 20px;
 }
 
 .header-buttons-holder {
@@ -38,4 +40,6 @@ Main background - #D4A76A*/
     margin-left: 3%;
     margin-right: 3%;
     text-align: center;
+    font-size: 9pt;
+    font-weight: bold;
 }
